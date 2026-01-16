@@ -58,6 +58,7 @@
           # Show versions
           echo "Ruby version: $(ruby --version)"
           echo "Rails version: $(rails --version)"
+          direnv deny
         '
       '';
     };
